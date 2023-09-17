@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image slider</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-emerald-700">
+    <div
+      class="image-container w-[350px] sm:w-[800px] mx-auto my-3 h-[350px] sm:h-[570px] relative"
+    >
+      <div
+        class="image-info block w-fit mx-auto px-4 py-1 rounded-md z-10 bg-[#7fff00] text-black font-semibold"
+      ></div>
+      <img src="images/image 1.jpg" alt="" />
+      <img src="images/image 2.jpg" alt="" />
+      <img src="images/image 3.jpg" alt="" />
+      <img src="images/image 4.jpg" alt="" />
+      <img src="images/image 5.jpg" alt="" />
+      <img src="images/image 6.jpg" alt="" />
+      <img src="images/image 7.jpg" alt="" />
+    </div>
+    <div
+      class="slider-control flex gap-8 items-center justify-center sm:w-96 mx-auto w-full"
+    >
+      <button class="prev active rounded-md px-8 py-2 text-white">Prev</button>
+      <ul class="bultes-container sm:flex gap-4 hidden"></ul>
+      <button class="next active rounded-md px-8 py-2 text-white">Next</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
